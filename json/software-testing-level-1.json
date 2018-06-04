@@ -1,0 +1,274 @@
+[
+  {
+    "question":
+      "You are responsible for creating a state transition table for a security lamp. The lamp is off when there is enough light for a person to see the room or when it has reached a pre-set delay after it has been activated when it detects movement in the dark. The pre-set delay is only active when the room is dark. After making the transition table below, which rows are incorrect test cases <table><thead><tr><th>Current State</th><th>Event</th><th>Next State</th></tr></thead><tbody><tr><td>a. Off</td><td>Room becomes dark</td><td>On</td></tr><tr><td>a. On</td><td>Room becomes bright</td><td>Off</td></tr><tr><td>a. On</td><td>Timer reached pre-set delay during the day</td><td>Off</td></tr><tr><td>a. Off</td><td>Room is dark & sensor detected movement</td><td>On</td></tr><tr><td>a. On</td><td>Room is dark & sensor stopped detecting movement</td><td>Off</td></tr></tbody></table>",
+    "choices": ["a, c, and e", "e only", "a only", "a and e"],
+    "answer": "a, c, and e"
+  },
+  {
+    "question":
+      "Which of the following techniques is NOT a White Box technique?",
+    "choices": [
+      "Boundary value analysis",
+      "Decision Testing and coverage",
+      "Statement Testing and coverage",
+      "Condition Coverage"
+    ],
+    "answer": "Boundary value analysis"
+  },
+  {
+    "question": "Which of the following is NOT true for white-box testing ?",
+    "choices": [
+      "Test data are created by investigating the internal logic of the program.",
+      "To check if the external behavior of a program met the specification.",
+      "To check each logic in a program.",
+      "Also called structural or structure-based technique.",
+      "Are based on an analysis of the structure of the component or system."
+    ],
+    "answer":
+      "To check if the external behavior of a program met the specification."
+  },
+  {
+    "question":
+      "Which black-box testing is being referred to by this statement: Test specs are created by analyzing the specifications and conditions and actions of the system are identified. The input conditions and actions are most often stated in such a way that they can either be true or false (boolean).",
+    "choices": [
+      "Use Case Testing",
+      "Cause-Effect Graphing",
+      "Boundary-value Analysis",
+      "Equivalence partitioning",
+      "State Transition Testing",
+      "Decision Table testing"
+    ],
+    "answer": "Decision Table testing"
+  },
+  {
+    "question":
+      "Which whitebox-testing method is defined by this statement: Enough test cases are created to check each decision at least once.",
+    "choices": ["Branch Coverage", "Path Coverage", "Statement Coverage"],
+    "answer": "Branch Coverage"
+  },
+  {
+    "question":
+      "Refers to a testing phase in which individual software modules/components are built and combined to produce the software product and resulting software product is tested.",
+    "choices": [
+      "System Testing",
+      "Integration Testing",
+      "Unit Testing",
+      "Acceptance Testing"
+    ],
+    "answer": "Integration Testing"
+  },
+  {
+    "question":
+      "Refers to a testing phase wherein software testing is performed to test if individual units of source code are fit for use. This is usually performed by programmers and stubs and test drivers are created.",
+    "choices": [
+      "Unit Testing",
+      "Acceptance Testing",
+      "Integration Testing",
+      "System Testing"
+    ],
+    "answer": "Unit Testing"
+  },
+  {
+    "question":
+      "Which black-box testing is being referred to by this statement: Test cases are created by using business scenarios or the process flows through a system based on its actual likely use. Most useful to uncover defects during real-world use of the system.",
+    "choices": [
+      "Use Case Testing",
+      "Decision Table testing",
+      "Equivalence partitioning",
+      "Boundary-value Analysis",
+      "State Transition Testing",
+      "Cause-Effect Graphing"
+    ],
+    "answer": "Use Case Testing"
+  },
+  {
+    "question":
+      "Which of the following is NOT a consideration in State Transition testing ?",
+    "choices": [
+      "The states that the software may occupy",
+      "The min-max and out of range values used as input to states.",
+      "The actions that result from a transition",
+      "The transitions from one state to another.",
+      "The events that cause a transition"
+    ],
+    "answer": "The min-max and out of range values used as input to states."
+  },
+  {
+    "question":
+      "Which of the following activities are performed by the developer during debugging? (Multiple answers allowed)",
+    "choices": [
+      "Find cause of the bug",
+      "Recreate the bug",
+      "Report bugs",
+      "Find solution to the bug",
+      "Confirm bug fix"
+    ],
+    "answer": [
+      "Recreate the bug",
+      "Find cause of the bug",
+      "Find solution to the bug"
+    ]
+  },
+  {
+    "question":
+      "Which of the following is the definition of a path coverage, a method in white-box testing ?",
+    "choices": [
+      "Select enough test cases to check each decision at least once.",
+      "Select test cases to check every statement in the program or function.",
+      "Select enough test cases to check all possible conditions of each branch at least once."
+    ],
+    "answer":
+      "Select enough test cases to check all possible conditions of each branch at least once."
+  },
+  {
+    "question":
+      "Which activities are not performed during test specification creation?",
+    "choices": [
+      "Test procedures, input conditions and expected results for each test item are documented.",
+      "Creation of Test data",
+      "Identification of Test cases",
+      "Identify risks in testing",
+      "Identification and creation of test items for each test case."
+    ],
+    "answer": "Identify risks in testing"
+  },
+  {
+    "question":
+      "Which of the following is the definition of a statement coverage, a method in white-box testing ?",
+    "choices": [
+      "Select enough test cases to check each decision at least once.",
+      "Select enough test cases to check all possible conditions of each branch at least once.",
+      "Select test cases to check every statement in the program or function."
+    ],
+    "answer":
+      "Select test cases to check every statement in the program or function."
+  },
+  {
+    "question":
+      "Which of the following is NOT a benefit or objective of testing ?",
+    "choices": [
+      "It can give confidence in the quality of the software if it finds few or no defects.",
+      "It makes it possible to measure the quality of software in terms of defects found.",
+      "Quality of the software increases when defects are detected and fixed.",
+      "Ensures that the project employs all processes needed to meet requirements thereby assuring quality."
+    ],
+    "answer":
+      "Ensures that the project employs all processes needed to meet requirements thereby assuring quality."
+  },
+  {
+    "question":
+      "Which black-box testing is being referred to by this statement: A test case created wherein input conditions are determined by identifying valid and invalid ranges of inputs to a function or system.",
+    "choices": [
+      "Use Case Testing",
+      "State Transition Testing",
+      "Cause-Effect Graphing",
+      "Boundary-value Analysis",
+      "Decision Table testing",
+      "Equivalence partitioning"
+    ],
+    "answer": "Boundary-value Analysis"
+  },
+  {
+    "question":
+      "How many test cases do you need to ensure 100% branch coverage of the following pseudo code: \n Integer X; \n Integer Y; \n IF X > Y \n PRINT \"X is greater than Y\"; \n ENDIF",
+    "choices": ["Just one", "5", "3", "2"],
+    "answer": "2"
+  },
+  {
+    "question": "Which of the following DOES NOT describe black-box testing?",
+    "choices": [
+      "Is a way to derive and select test conditions or test cases based on an analysis of the test basis documentation and the experience of developers, testers and users.",
+      "For input data, to check if corresponding results from the program matches the expected result.",
+      "To check if the external behavior of a program met the specification.",
+      "Not concerned with the internal structure of the program.",
+      "Test data are created by investigating the internal logic of the program."
+    ],
+    "answer":
+      "Test data are created by investigating the internal logic of the program."
+  },
+  {
+    "question":
+      "Which black-box testing is being referred to by this statement: a technique used to achieve input and output coverage by dividing a system into groups that are expected to exhibit similar behavior so they are likely to be processed in the same way.",
+    "choices": [
+      "Decision Table testing",
+      "Boundary-value Analysis",
+      "Use Case Testing",
+      "Equivalence partitioning",
+      "Cause-Effect Graphing",
+      "State Transition Testing"
+    ],
+    "answer": "Equivalence partitioning"
+  },
+  {
+    "question":
+      "How many test cases do you need to test this pseudo code if using the Multiple Condition Decision Coverage technique: \n IF (A or B) \n PRINT C; \n ENDIF",
+    "choices": ["3", "4", "2", "1"],
+    "answer": "4"
+  },
+  {
+    "question": "What is the cause of software defects ?",
+    "choices": [
+      "Programming Errors",
+      "Wrong design",
+      "Errors in requirements",
+      "Human Error",
+      "Incomplete Testing"
+    ],
+    "answer": "Human Error"
+  },
+  {
+    "question":
+      "How many test cases do you need to ensure 100% statement coverage of the following pseudo code: \n Integer X; \n Integer Y; \n IF X > Y \n PRINT \"X is greater than Y\"; \n ENDIF",
+    "choices": ["3", "Just one", "5"],
+    "answer": "Just one"
+  },
+  {
+    "question": "Which of the following best describes Testing?",
+    "choices": [
+      "Ensure that problems are checked and dealt with.",
+      "It is applying the planned, systematic quality activities to ensure that the project employs all processes needed to meet requirements.",
+      "The process of executing a program with the intent of finding errors.",
+      "Makes sure that standards are followed.",
+      "Testing is a quality assurance activity."
+    ],
+    "answer":
+      "The process of executing a program with the intent of finding errors."
+  },
+  {
+    "question":
+      "You were asked to create test data to implement boundary value analysis technique. The particular feature you're testing will only accept values between 1 to 1,000,000. Which test data would you create?",
+    "choices": [
+      "(0, 1, 2), ( 999,999, 1,000,000,1,000,001)",
+      "(0, 1,000,000)",
+      "(0, 1, 2), (999,998,1,000,000,1,000,002)",
+      "(1, 500,000, 1,000,000)"
+    ],
+    "answer": "(0, 1, 2), ( 999,999, 1,000,000,1,000,001)"
+  },
+  {
+    "question":
+      "You are assigned the task of testing a software application. Which of these activities will you perform?",
+    "choices": [
+      "Set up test environment",
+      "Measure the performance of components and systems",
+      "Automate Tests",
+      "Measure the progress of tests",
+      "Select the testing tool"
+    ],
+    "answer": ["Set up test environment", "Automate Tests"]
+  },
+  {
+    "question":
+      "A function or method receives an integer parameter Month and only accepts the values 1-12. Which test case would you use to test the function or method?",
+    "choices": [
+      "Test values only from 1 to 12",
+      "Test for one value that is less than or equal to 0, one value between 1 and 12, and one value greater than or equal to 13",
+      "Test only for values greater than 12",
+      "Test only for values less than 1",
+      "Test for all integers"
+    ],
+    "answer":
+      "Test for one value that is less than or equal to 0, one value between 1 and 12, and one value greater than or equal to 13"
+  }
+]

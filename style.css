@@ -1,0 +1,48 @@
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+.row {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+input[type="radio"] + span,
+input[type="checkbox"] + span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="radio"]:checked + span,
+input[type="checkbox"]:checked + span {
+  color: rgba(0, 0, 0, 1);
+}
+
+.sidenav-header {
+  padding: 32px 32px 16px;
+}
+
+ul.sidenav.sidenav-fixed ul.collapsible-accordion a.collapsible-header {
+  padding: 0 30px;
+}
+
+ul.sidenav.sidenav-fixed ul.collapsible-accordion .collapsible-body li a {
+  font-weight: 400;
+  padding: 0 37.5px 0 45px;
+}
+
+.long-text {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  line-height: initial;
+}

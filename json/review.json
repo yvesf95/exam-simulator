@@ -1,0 +1,247 @@
+[
+    {
+        "question": "It refers to the number of review a review object has to go through by different stakeholders. This is to ensure that the viewpoint of the stakeholders and needs are properly captured or satisfied in the work products created by the project team.",
+        "choices": [
+            "Review Method",
+            "Review Criteria",
+            "Review Materials",
+            "Review Ethics",
+            "Levels of Review"
+        ],
+        "answer": "Levels of Review"
+    }, 
+    {
+        "question": "In reviews, what does bug severity mean? \n\n Select one:",
+        "choices": [
+            "It means the following: High, Mid, Low",
+            "It means the degree to which how easy or how difficult it is to fix the bug.",
+            "It means the following: Critical, Major, Minor, Trivial.",
+            "It refers to the priority of the defect in terms of when it should be fixed.",
+            "It refers to the degree of the effect of the defect/bug on the overall system or work product."
+        ],
+        "answer": "It refers to the degree of the effect of the defect/bug on the overall system or work product."
+    }, 
+    {
+        "question": "What will happen if reviews are not performed well? \n\n Select one:",
+        "choices": [
+            "The work product will be of low quality.",
+            "Quality targets will not be met and project team will have difficulty during phase evaluations.",
+            "Nothing, I can always fix the bug anytime.",
+            "Quality of product is not ensured and time consuming alterations or rework are experienced in later phases because of defects.",
+            "Project team will get an NCAR from SQA Group"
+        ],
+        "answer": "Quality of product is not ensured and time consuming alterations or rework are experienced in later phases because of defects."
+    }, 
+    {
+        "question": "Why is there a need for the client to validate the requirement documents through reviews? \n\n Select one:",
+        "choices": [
+            "To check if the requirements given by the client is enough to create the product.",
+            "To check if the requirements is enough to create the test plan and test specification and ensure the testability of the requirements.",
+            "To ensure that the requirements are understood by project team and requirements provider and checked for completeness of requirements.",
+            "To check if there are no conflict between the project plan created.",
+            "To check the testability of the requirements."
+        ],
+        "answer": "To ensure that the requirements are understood by project team and requirements provider and checked for completeness of requirements."
+    }, 
+    {
+        "question": "Can the project group define their own review checklist? \n\n Select one:",
+        "choices": [
+            "Maybe",
+            "Depends",
+            "No",
+            "I do not know",
+            "Yes"
+        ],
+        "answer": "Yes"
+    }, 
+    {
+        "question": "Refers to the role that is responsible in reviewing the review object and must be knowledgeable enough to perform the task. \n\n Select one:",
+        "choices": [
+            "Reviewer",
+            "Reviewee",
+            "Technical Lead",
+            "Project Leader",
+            "Review Coordinator"
+        ],
+        "answer": "Reviewer"
+    }, 
+    {
+        "question": "Why is there a need for the tester/test team to validate the basic design document through reviews? \n\n Select one:",
+        "choices": [
+            "To check if the requirements was translated to the basic design.",
+            "To check if the detailed design is enough to create the unit test specification.",
+            "To check if the design document is enough to create the integration test specification document.",
+            "To check if the design document will work on the intended environment."
+        ],
+        "answer": "To check if the design document is enough to create the integration test specification document."
+    }, 
+    {
+        "question": "Why is there a need to bring the RTM during reviews? \n\n Select one:",
+        "choices": [
+            "To ensure that correct input documents were used in creating the work products and each requirement have an equivalent work product.",
+            "To ensure correct documents were used during reviews.",
+            "Because it is indicated in the standard review guideline.",
+            "To check the work products created by the group."
+        ],
+        "answer": "To ensure that correct input documents were used in creating the work products and each requirement have an equivalent work product."
+    }, 
+    {
+        "question": "Base on tailoring of NSP SWD Standard Review Guideline which statement is FALSE? \n\n Select one:",
+        "choices": [
+            "The project is not allowed to tailor the review process that is suitable to the project needs.",
+            "The selection of review objects are tailorable, this depends on the project development life cycle and deliverables.",
+            "The project can choose their own review method.",
+            "The project can define their own review procedure based on the SWD Standard.",
+            "The levels of review per review object are tailorable."
+        ],
+        "answer": "The project is not allowed to tailor the review process that is suitable to the project needs."
+    }, 
+    {
+        "question": "It is used to record the defects and comments found during the review. \n\n Select one:",
+        "choices": [
+            "Review Coordinator",
+            "Review Management Sheets",
+            "Review Object",
+            "Work Product",
+            "Review Record Card (RRC)"
+        ],
+        "answer": "Review Record Card (RRC)"
+    }, 
+    {
+        "question": "It refers to the material to be reviewed. \n\n Select one:",
+        "choices": [
+            "Review Coordinator",
+            "Review Management Sheets",
+            "Review Object",
+            "Work Product",
+            "Review Record Card (RRC)"
+        ],
+        "answer": "Review Object"
+    }, 
+    {
+        "question": "The author of the review object. \n\n Select one:",
+        "choices": [
+            "Reviewer",
+            "Reviewee",
+            "Technical Lead",
+            "Project Leader",
+            "Review Coordinator"
+        ],
+        "answer": "Reviewee"
+    }, 
+    {
+        "question": "The person who plans, monitor and control the review activities of the project. \n\n Select one:",
+        "choices": [
+            "Reviewer",
+            "Reviewee",
+            "Technical Lead",
+            "Project Leader",
+            "Review Coordinator"
+        ],
+        "answer": "Review Coordinator"
+    }, 
+    {
+        "question": "Sheets used to record the Review Plan and Actual: schedule, total defects, reviewer, reviewee, review record card. \n\n Select one:",
+        "choices": [
+            "Review Coordinator",
+            "Review Management Sheets",
+            "Review Object",
+            "Work Product",
+            "Review Record Card (RRC)"
+        ],
+        "answer": "Review Management Sheets"
+    }, 
+    {
+        "question": "This can include files, documents, products, parts of a product, services, process descriptions, specifications, and invoices. \n\n Select one:",
+        "choices": [
+            "Review Coordinator",
+            "Review Management Sheets",
+            "Review Object",
+            "Work Product",
+            "Review Record Card (RRC)"
+        ],
+        "answer": "Work Product"
+    }, 
+    {
+        "question": "Review performed within the project group only. \n\n Select one:",
+        "choices": [
+            "Team Review",
+            "Group Review",
+            "User Review",
+            "Project Review"
+        ],
+        "answer": "Team Review"
+    }, 
+    {
+        "question": "Review performed with the client or any stakeholder who will use the work product. \n\n Select one:",
+        "choices": [
+            "Team Review",
+            "Group Review",
+            "User Review",
+            "Project Review"
+        ],
+        "answer": "User Review"
+    }, 
+    {
+        "question": "Review performed with other groups / stakeholders not part of the project group. \n\n Select one:",
+        "choices": [
+            "Team Review",
+            "Group Review",
+            "User Review",
+            "Project Review"
+        ],
+        "answer": "Group Review"
+    }, 
+    {
+        "question": "Ensures that selected work products meet their specified requirements. \n\n Select one:",
+        "choices": [
+            "Verification",
+            "Validation",
+            "Correctness",
+            "Completeness"
+        ],
+        "answer": "Verification"
+    }, 
+    {
+        "question": "Demonstrates that a product fulfills its intended use when placed in its intended environment. \n\n Select one:",
+        "choices": [
+            "Verification",
+            "Validation",
+            "Correctness",
+            "Completeness"
+        ],
+        "answer": "Validation"
+    }, 
+    {
+        "question": "Which of the following are Review Activities. \n\n Select one or more:",
+        "choices": [
+            "Review Preparation",
+            "Actual Review",
+            "Rework",
+            "Review Confirmation",
+            "Review Examination"
+        ],
+        "answer": [
+            "Review Preparation",
+            "Actual Review",
+            "Rework",
+            "Review Confirmation"
+        ]
+    }, 
+    {
+        "question": "Which of the following are Criteria for Reviews. \n\n Select one or more:",
+        "choices": [
+            "Review Entry Criteria",
+            "Review Criteria",
+            "Re-review Criteria",
+            "Review Exit Criteria",
+            "Review Methods Criteria"
+        ],
+        "answer": [
+            "Review Entry Criteria",
+            "Review Criteria",
+            "Re-review Criteria",
+            "Review Exit Criteria"
+        ]
+    }
+]

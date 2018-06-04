@@ -1,0 +1,135 @@
+[
+  {
+    "question":
+      "It refers to a structured collection of practices that describes the characteristics of effective processes. \n\n Select one:",
+    "choices": [
+      "Software Process Improvement",
+      "CMMI",
+      "Process Model",
+      "Maturity Level"
+    ],
+    "answer": "Process Model"
+  },
+  {
+    "question":
+      "A generic goal in CMMI which refers to a performed process that is planned and executed in accordance with policy. \n\n Select one:",
+    "choices": [
+      "GG2: Institutionalize a managed process",
+      "GG3: Institutionalize a defined process",
+      "GG5: Institutionalize an optimizing process",
+      "GG1: Achieve Specific Goals",
+      "GG4: Institutionalize a quantitatively managed process"
+    ],
+    "answer": "GG2: Institutionalize a managed process"
+  },
+  {
+    "question":
+      "A generic goal in CMMI which refers to a performed process is a process that accomplishes the work necessary to satisfy the specific goals of a process area. \n\n Select one:",
+    "choices": [
+      "GG3: Institutionalize a defined process",
+      "GG4: Institutionalize a quantitatively managed process",
+      "GG1: Achieve Specific Goals",
+      "GG2: Institutionalize a managed process",
+      "GG5: Institutionalize an optimizing process"
+    ],
+    "answer": "GG1: Achieve Specific Goals"
+  },
+  {
+    "question":
+      "Which of the following describes the Stability Myth? \n\n Select one:",
+    "choices": [
+      "We train our staff and we trust them to practice what they learned. We don't have to monitor them.",
+      "We defined, documented, and deployed the process. It should be self-driven. Nothing should go wrong. External verification is not necessary.",
+      "Our defined, documented, trained, and used process is stable, and will remain effective without changes.",
+      "We have a process because we have a set of standard documents that specify the steps of software development.",
+      "Our senior management sponsor believes in process improvement. We don’t have to justify our investment and effort in SPI."
+    ],
+    "answer":
+      "Our defined, documented, trained, and used process is stable, and will remain effective without changes."
+  },
+  {
+    "question": "What is CMMI? \n\n Select one:",
+    "choices": [
+      "A Set of Best Practices for Software & Systems Engineering",
+      "Methodology",
+      "A Guideline for Continuous Improvement",
+      "A \"Certification\""
+    ],
+    "answer": [
+      "A Set of Best Practices for Software & Systems Engineering",
+      "A Guideline for Continuous Improvement"
+    ]
+  },
+  {
+    "question": "What CMMI is NOT? \n\n Select one:",
+    "choices": [
+      "A Set of Best Practices for Software & Systems Engineering",
+      "Methodology",
+      "A Guideline for Continuous Improvement",
+      "A \"Certification\""
+    ],
+    "answer": ["Methodology", "A \"Certification\""]
+  },
+  {
+    "question":
+      "What are the activities to performed in implementing SPI. \n\n Select one:",
+    "choices": [
+      "Process publication, training and deployment.",
+      "Establish the process, Institutionalize the process, Feedback and Process Improvement.",
+      "Process definition and approval, Lessons Learned and Best Practices",
+      "Process improvement"
+    ],
+    "answer":
+      "Establish the process, Institutionalize the process, Feedback and Process Improvement."
+  },
+  {
+    "question":
+      "Which of the following is NOT a Critical Success Factors in SPI? \n\n Select one:",
+    "choices": [
+      "Management and Prioritization of change.",
+      "Learning from feedback results.",
+      "Alignment with business strategy and goals.",
+      "Dedicated resource to manage the implementation and coordination process improvement activities.",
+      "Process Improvement implementation."
+    ],
+    "answer": "Process Improvement implementation."
+  },
+  {
+    "question":
+      "A generic goal in CMMI which refers to a managed process that is tailored from the organization’s set of standard processes according to the organization’s tailoring guidelines. \n\n Select one:",
+    "choices": [
+      "GG4: Institutionalize a quantitatively managed process",
+      "GG3: Institutionalize a defined process",
+      "GG2: Institutionalize a managed process",
+      "GG1: Achieve Specific Goals",
+      "GG5: Institutionalize an optimizing process"
+    ],
+    "answer": "GG3: Institutionalize a defined process"
+  },
+  {
+    "question": "Which of the following statements describes the importance of a process model? \n\n Select one or more:",
+    "choices": [
+      "It provides a place to start improving.",
+      "It provides a way to define what improvement means for an organization.",
+      "It provides a common language and a shared vision.",
+      "It provides a framework for prioritizing actions."
+    ],
+    "answer": [
+      "It provides a place to start improving.",
+      "It provides a way to define what improvement means for an organization.",
+      "It provides a common language and a shared vision.",
+      "It provides a framework for prioritizing actions."
+    ]
+  },
+  {
+    "question":
+      "Which of the following is a benefit in using the CMMI? \n\n Select one:",
+    "choices": [
+      "Getting feedback from the practitioners.",
+      "Providing improvement information to SEPG.",
+      "Guidance for efficient, effective improvement across multiple process disciplines in an organization.",
+      "Collection of best practices from different organization."
+    ],
+    "answer": "Guidance for efficient, effective improvement across multiple process disciplines in an organization."
+  }
+]

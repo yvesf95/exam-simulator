@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exam Simulator</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+        <li class="sidenav-header">
+            <h5>Exam Topics</h5>
+        </li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li>
+                    <a class="waves-effect waves-teal collapsible-header">Basic Training Module</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>
+                                <a href="review.json" class="json-link">Review</a>
+                            </li>
+                            <li>
+                                <a href="configuration-management.json" class="json-link">Configuration Management</a>
+                            </li>
+                            <li>
+                                <a href="intro-to-cmmi-and-spi-infrastructure.json" class="json-link">
+                                    <span class="long-text">Intro to CMMI and SPI Infrastructure</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="sdlc-design-coding-and-user-documentation.json" class="json-link">
+                                    <span class="long-text">SDLC, Design, Coding, and User Documentation</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="active">
+                    <a class="waves-effect waves-teal collapsible-header">Testing</a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>
+                                <a href="software-testing-level-1.json" class="json-link">Software Testing Level 1</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <header class="container">
+        <h1>Trainees Exam Simulator</h1>
+        <div class="row">
+            <h5 id="title"></h5>
+        </div>
+    </header>
+    <main class="container" id="sheet">
+    </main>
+    <div class="fixed-action-btn">
+        <a id="scroll-top" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">arrow_upward</i>
+        </a>
+        <a id="scroll-bot" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">arrow_downward</i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var collapsibles = document.querySelectorAll('.collapsible');
+            var instances = M.Collapsible.init(collapsibles, {
+                accordion: true
+            });
+            var sidenavs = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(sidenavs);
+            var dropdowns = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(dropdowns);
+        });
+    </script>
+</body>
+
+</html>

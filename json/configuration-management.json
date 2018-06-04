@@ -1,0 +1,102 @@
+[
+    {
+        "question": "It refers to one or multiple configuration item baselines that will serve as an approved snapshot of the system at appropriate points in the project lifecycle. \n\n Select One:",
+        "choices": [
+            "CM Audit",
+            "Repository Access",
+            "Configuration Item Baseline",
+            "Configuration Milestone Baseline"
+        ],
+        "answer": "Configuration Milestone Baseline"
+    },
+    {
+        "question": "A CM Activity that refers to the preservation of the contents of the configuration management system. \n\n Select One:",
+        "choices": [
+            "Backup",
+            "Baseline",
+            "Configuration Control",
+            "Status Accounting"
+        ],
+        "answer": "Backup"
+    },
+    {
+        "question": "It refers to a set of specifications or work products that has been formally reviewed and agreed on, which thereafter serves as the basis for further development, and which can be changed only through change control procedures. \n\n Select One:",
+        "choices": [
+            "Work Product Registry",
+            "Repository Access",
+            "Baselines",
+            "CM Audits"
+        ],
+        "answer": "Baselines"
+    },
+    {
+        "question": "It refers to the record of the changes made from one version to another. \n\n Select One:",
+        "choices": [
+            "Version Number",
+            "Revision History",
+            "Standard Directory Structure",
+            "Document Registration"
+        ],
+        "answer": "Revision History"
+    },
+    {
+        "question": "A CM Principle which means the existence and correctness of the configuration items stored in the repository. \n\n Select One:",
+        "choices": [
+            "Baselines",
+            "Traceability",
+            "Change Control",
+            "Integrity"
+        ],
+        "answer": "Integrity"
+    },
+    {
+        "question": "It is the activity of putting/retrieving work products into/from the repository using a version control application. \n\n Select One:",
+        "choices": [
+            "Change Control",
+            "Baselines",
+            "Repository Checkin/Checkout",
+            "Naming Convention"
+        ],
+        "answer": "Repository Checkin/Checkout"
+    },
+    {
+        "question": "Which of the following is NOT a CM Activity? \n\n Select One:",
+        "choices": [
+            "Requirements Management",
+            "CM Audit",
+            "Configuration Control",
+            "Release Activities"
+        ],
+        "answer": "Requirements Management"
+    },
+    {
+        "question": "Which of the following describes the importance of Change Control? \n\n Select One:",
+        "choices": [
+            "To maintain traceability of the configuration items.",
+            "To assess impact of changes to the baselines.",
+            "To ensure integrity of configuration items.",
+            "To manage configuration items that is affected by the changes."
+        ],
+        "answer": "To manage configuration items that is affected by the changes."
+    },
+    {
+        "question": "It is a document that contains the list of registered work products of the group that is under CM. \n\n Select One:",
+        "choices": [
+            "CM Plan",
+            "Test Results and Release Evaluation Checklist",
+            "Top Level WBS",
+            "Work Product Registry"
+        ],
+        "answer": "Work Product Registry"
+    },
+    {
+        "question": "A CM Principle which means to be able to trace or monitor changes made to the configuration items in the repository.\n\n Select One:",
+        "choices": [
+            "Baselines",
+            "Integrity",
+            "Traceability",
+            "Change Control"
+        ],
+        "answer": "Traceability"
+    }
+]

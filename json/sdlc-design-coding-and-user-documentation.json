@@ -1,0 +1,286 @@
+[
+  {
+    "question":
+      "What will happen if external and internal interfaces will not be managed well? Choose all correct answers. \n\n Select one or more:",
+    "choices": [
+      "The correct interface are used in the implementation of the design, source codes and test specification.",
+      "Changes in the interfaces will not be handled.",
+      "There is a possibility that the project will encounter integration problems.",
+      "Interfaces used in the implementation might be wrong."
+    ],
+    "answer": [
+      "Changes in the interfaces will not be handled.",
+      "There is a possibility that the project will encounter integration problems.",
+      "Interfaces used in the implementation might be wrong."
+    ]
+  },
+  {
+    "question":
+      "Which of the following is NOT a user documentation ? \n\n Select one:",
+    "choices": [
+      "Installation Manuals",
+      "Online Help",
+      "Troubleshooting Manuals",
+      "Document Set",
+      "User Manuals"
+    ],
+    "answer": "Document Set"
+  },
+  {
+    "question": "Which is NOT a part of the Basic Design Document ? \n\n Select one:",
+    "choices": [
+      "Internal System Interfaces",
+      "System Architecture",
+      "System Components",
+      "System Overview and System Environment",
+      "Design Evaluation and Selection"
+    ],
+    "answer": "Design Evaluation and Selection"
+  },
+  {
+    "question": "What is the importance of SDLC? \n\n Select one:",
+    "choices": [
+      "To promote development iterations, open collaboration, and process adaptability thoughout the life-cycle of the project.",
+      "To develop a software system incrementally.",
+      "To schedule and stage a strategy in which the various parts of the system are developed at different times or rates.",
+      "To carry out software development in a disciplined manner because of the complexity of software products.",
+      "To describe a development method that is rigid and linear."
+    ],
+    "answer": "To carry out software development in a disciplined manner because of the complexity of software products."
+  },
+  {
+    "question": "What is the use of the Design Evaluation and Selection Document? \n\n Select one:",
+    "choices": [
+      "Describes the problem or condition to be addressed, and consider the alternative solutions.",
+      "Presents the criteria and the results of the evaluation of each solution.",
+      "Presents the solution selected and the rationale of the decision.",
+      "Records the alternative solutions considered to address the requirements as well as the evaluation performed and the decisions and rationale behind the solution selected."
+    ],
+    "answer": "Records the alternative solutions considered to address the requirements as well as the evaluation performed and the decisions and rationale behind the solution selected."
+  },
+  {
+    "question": "Which of the following is NOT a coding activity in NSP ? \n\n Select one:",
+    "choices": [
+      "Phase Evaluation",
+      "Creation of source code according to design",
+      "Consider the Coding Guideline to be used",
+      "Approval of source codes",
+      "Review"
+    ],
+    "answer": "Consider the Coding Guideline to be used"
+  },
+  {
+    "question": "Which of the following is NOT a description of the V-Model ? \n\n Select one:",
+    "choices": [
+      "A scheduling and staging strategy in which the various parts of the system are developed at different times or rates.",
+      "It has a very intensive testing in order to eliminate the bug/error that may occur during each stage of development project.",
+      "The V-Model demonstrates the relationships between each phase of the development life cycle and its associated phase of testing.",
+      "V-model is also called verification and validation model (V&V)."
+    ],
+    "answer": "A scheduling and staging strategy in which the various parts of the system are developed at different times or rates."
+  },
+  {
+    "question": "Which is NOT a part of the Function Design Document? \n\n Select one:",
+    "choices": [
+      "User Interface, an illustration or a screenshot of the user interface for a particular module or operation",
+      "Class, this contains the interface classes provided for each module",
+      "Function List, this is a list of all the functions of a certain module with its short description",
+      "Module Description, this is a brief description of the major function of processing of the module.",
+      "Data Composition, this describes the data composition like shared memory and global data structures of the module."
+    ],
+    "answer": "Function List, this is a list of all the functions of a certain module with its short description"
+  },
+  {
+    "question": "Which is NOT a section of the Design Evaluation and Selection Document? \n\n Select one:",
+    "choices": [
+      "Selection Methods",
+      "Conclusion",
+      "Solution Approaches",
+      "Problem Domain",
+      "Evaluation"
+    ],
+    "answer": "Selection Methods"
+  },
+  {
+    "question": "Which is NOT an activity of \"Identify, investigate and evaluate possible solutions\"? \n\n Select one:",
+    "choices": [
+      "Identify possible technologies and framework to use that can help address the requirements",
+      "Create basic design based on the selected solution.",
+      "Check client requirements for any specified technology or framework",
+      "Conduct design meetings to come up with possible software architectures",
+      "Create prototypes, if necessary, to test solutions being considered"
+    ],
+    "answer": "Create basic design based on the selected solution."
+  },
+  {
+    "question": "Which of the following does NOT refer to \"Identification Data\" in a user documentation. \n\n Select one:",
+    "choices": [
+      "Author",
+      "Software Product and Version",
+      "Issuing Organization",
+      "Document Title",
+      "Revision History",
+      "Version"
+    ],
+    "answer": "Author"
+  },
+  {
+    "question": "What is NOT an output of the \"Identify, investigate and evaluate possible solutions\" ? \n\n Select one:",
+    "choices": [
+      "Minutes of the Meeting",
+      "Basic Design Document",
+      "Prototypes",
+      "Study documents or results of investigations",
+      "Design Evaluation and Selection document"
+    ],
+    "answer": "Basic Design Document"
+  },
+  {
+    "question": "The following are good practices in coding EXCEPT: \n\n Select one:",
+    "choices": [
+      "Source codes must be verified through reviews and UT. It must also be verified against conformance to the group's coding guideline.",
+      "During implementation, developers must follow the design documents even if there are obvious mistakes in the design because the design document has already been approved by the PL and client. And changing the code will result in UT or IT Bug.",
+      "Projects must have a coding guideline specific to the programming language used.",
+      "All members of the group must know the coding guideline prior to the coding phase."
+    ],
+    "answer": "During implementation, developers must follow the design documents even if there are obvious mistakes in the design because the design document has already been approved by the PL and client. And changing the code will result in UT or IT Bug."
+  },
+  {
+    "question": "Which of the following activities is NOT included in the Basic and Function Design phase? \n\n Select one:",
+    "choices": [
+      "Create Function design documents",
+      "Review and Modify Test Specifications",
+      "Create Test Specifications",
+      "Develop product and customer requirements.",
+      "Review and Modify Basic Design Documents",
+      "Identify, investigate and evaluate possible solutions"
+    ],
+    "answer": "Develop product and customer requirements."
+  },
+  {
+    "question": "Which of the following is NOT a consideration in determining the SDLC to be followed by the project? \n\n Select one:",
+    "choices": [
+      "Input documents from client",
+      "Stakeholders needs",
+      "Scope of development requirements from client",
+      "Schedule of development",
+      "Size of project"
+    ],
+    "answer": "Stakeholders needs"
+  },
+  {
+    "question": "What is NOT a method to come up with an effective design ? \n\n Select one:",
+    "choices": [
+      "Prototypes",
+      "Object Oriented Design",
+      "Structure Design",
+      "Design Patterns",
+      "Elicitation",
+      "Reverse Engineering"
+    ],
+    "answer": "Elicitation"
+  },
+  {
+    "question": "Document Set is a collection of one or more user documentations. Which of the following is an acceptable format of a user documentation in a document set. \n\n Select one:",
+    "choices": [
+      "Acceptable format is printed media only.",
+      "A documentation set can be electronic, printed media or a combination of both.",
+      "Acceptable format is electronic only.",
+      "A documentation set must be of one format only. If electronic, then all user documentation must be electronic."
+    ],
+    "answer": "A documentation set can be electronic, printed media or a combination of both."
+  },
+  {
+    "question": "Which of the following is NOT a definition of basic design? \n\n Select one:",
+    "choices": [
+      "It describes how the system works to meet the requirement specifications.",
+      "It focuses on the best solution decided.",
+      "It presents a solution to the problem.",
+      "It is the definition of modules and intermodular interfaces."
+    ],
+    "answer": "It is the definition of modules and intermodular interfaces."
+  },
+  {
+    "question": "Which is NOT a part of the Detailed Design Document for an Object Oriented design? \n\n Select one:",
+    "choices": [
+      "Class specification, class description, class methods, and data members.",
+      "Class diagrams showing the classes of the system, their relationships and the operations and attributes of each.",
+      "A list of all the classes of a module and brief description of each class.",
+      "A list of all the functions of a certain module.",
+      "The flow or message calls between objects for a particular operation in the system."
+    ],
+    "answer": "A list of all the functions of a certain module."
+  },
+  {
+    "question": "What is a Class Specification? \n\n Select one:",
+    "choices": [
+      "A list of all the classes of a module and brief description of each class.",
+      "Illustrates the flow or message calls between objects for a particular operation in the system",
+      "This contains the parts of the source codes that will be modified, added, deleted, per method.",
+      "Class diagrams showing the classes of the system, their relationships and the operations and attributes of each.",
+      "This shows the class description, all the class methods, and data members. It also includes the input/output, flowchart or pseudo code of each method."
+    ],
+    "answer": "This shows the class description, all the class methods, and data members. It also includes the input/output, flowchart or pseudo code of each method."
+  },
+  {
+    "question": "What is NOT a coding guideline ? \n\n Select one:",
+    "choices": [
+      "A set of guidelines for a specific programming language that recommends programming style, practices and methods for each aspect of a piece of program writing in this language.",
+      "A set of guidelines that helps developers prevent common mistakes during coding.",
+      "A set of guidelines that help reviewers and project leaders find defects during source code review.",
+      "Conventions that covers file organization, indentation, comments, declarations."
+    ],
+    "answer": "A set of guidelines that help reviewers and project leaders find defects during source code review."
+  },
+  {
+    "question": "In Software Development Process, which of the following is NOT a part of the Requirements Analysis activities? \n\n Select one:",
+    "choices": [
+      "Balance requirements with stakeholders needs.",
+      "Manage changes in the requirements.",
+      "Elicit stakeholder needs.",
+      "Develop product and customer requirements.",
+      "Group study of Input documents."
+    ],
+    "answer": "Manage changes in the requirements."
+  },
+  {
+    "question": "What will happen if requirements analysis documents are not baselined (reviewed and approved)? Choose all correct answers. \n\n Select one or more:",
+    "choices": [
+      "It will take a long time to get agreement on product design.",
+      "Reconcile conflicting requirements from various stakeholders.",
+      "There's a great risk of rework in later phases of the project.",
+      "The requirements to develop will be unstable."
+    ],
+    "answer": [
+      "It will take a long time to get agreement on product design.", 
+      "There's a great risk of rework in later phases of the project.", 
+      "The requirements to develop will be unstable."
+    ]
+  },
+  {
+    "question": "Why is there are need to document the design? Choose all correct answers. \n\n Select one or more:",
+    "choices": [
+      "It is required by NSP's software development process.",
+      "To communicate information about the evolving system to the development team and to the stakeholders.",
+      "Documenting the design helps represent the solution in a way that is meaningful to the implementation and test teams.",
+      "It is a deliverable by the client."
+    ],
+    "answer": [
+      "Documenting the design helps represent the solution in a way that is meaningful to the implementation and test teams.", 
+      "To communicate information about the evolving system to the development team and to the stakeholders."
+    ]
+  },
+  {
+    "question": "What are the purposes of providing user documentation ? Choose the correct answers. \n\n Select one or more:",
+    "choices": [
+      "To provide the users or any stakeholder of the system support in terms of how to install, troubleshoot the system, or how to perform some operations in the system.",
+      "NSP's process require it.",
+      "It is a deliverable requested by the client.",
+      "To address the interests of software acquirers, testers, producers or users in standards for consistent, complete, accurate and usable documentation."
+    ],
+    "answer": [
+      "To address the interests of software acquirers, testers, producers or users in standards for consistent, complete, accurate and usable documentation.", 
+      "To provide the users or any stakeholder of the system support in terms of how to install, troubleshoot the system, or how to perform some operations in the system."
+    ]
+  }
+]
